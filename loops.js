@@ -9,7 +9,7 @@ function forLoop (array)
     }
     else if ()
     {
-      array[i]= "I am ${i} strange loops.";
+      array[i+1]= "I am ${i} strange loops.";
     }
   }
   return array;
