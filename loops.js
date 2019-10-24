@@ -5,11 +5,11 @@ function forLoop (array)
     //
     if(i === 0)
     {
-      array[i]= "I am 1 strange loop.";
+      array.push ("I am 1 strange loop.");
     }
     else if ()
     {
-      array[i]= `I am ${i+1} strange loops.`;
+      array.push (`I am ${i+1} strange loops.`);
     }
   }
   return array;
